@@ -1,0 +1,24 @@
+Package: whisprrr
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Johannes B.",
+           family = "Gruber",
+           email = "JohannesB.Gruber@gmail.com", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9177-1772"))
+Description: Wraps the Whisper package by 'OpenAI' <https://github.com/openai/whisper>, 
+    which can be used to transcribe audio.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    callr,
+    cli,
+    methods,
+    purrr,
+    reticulate,
+    tibble
+URL: https://github.com/JBGruber/whisperrr
+
